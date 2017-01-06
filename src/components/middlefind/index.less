@@ -1,0 +1,188 @@
+
+@keyframes hover {
+    from {background: #fff}
+    to {background: #eeeeee}
+}
+
+.middle_find {
+    display: inline-block;
+    width: 55%;
+    background: #fff;
+    .mid_top_nav {
+        width: 100%;
+        padding-left: 22px;
+        height: 53px;
+        box-sizing: border-box;
+        border-bottom: 2px solid #D9D9D9;
+        li {
+            float: left;
+            line-height: 49px;
+            padding: 0 15px;
+            transition: all .3s;
+            &:hover {
+                background: #eeeeee;
+                a {
+                    color: #646A6A;
+                }
+            }
+            a {
+                font-size: 12px;
+                color: #9C9F9F;
+            }
+        }
+        .active {
+            border-bottom: 2px solid #555;
+            a {
+                color: #646A6A;
+            }
+
+        }
+
+        input {
+            float: right;
+            width: 180px;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 4px;
+            text-indent: 14px;
+            font-size: 12px;
+            color: #ccc;
+            border: 1px solid #ccc;
+            border-radius: 14px;
+            //outline: 1px solid green;
+        }
+    }
+}
+
+.nav_items {
+    width: 100%;
+    padding-left: 26px;
+    padding-top: 14px;
+    box-sizing: border-box;
+    li {
+        display: inline-block;
+        float: left;
+        margin: 5px 8px;
+        padding: 0 10px;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        border:1px solid #D9D9D9;
+        border-radius: 14px;
+        a {
+            color: #555555;
+        }
+        &:hover {
+            a {
+                color: #000;
+            }
+        }
+        //&:nth-of-type(1) {
+        //    background: #e78170;
+        //    border-color: #e78170;
+        //}
+    }
+    .active {
+        background: #f49484;
+        border-color: #e78170;
+        a {
+            color:#fff;
+        }
+        &:hover {
+            border-color: #f49484;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+.article_list {
+    padding-left: 40px;
+    box-sizing: border-box;
+    .list_left {
+        width: 82.6%;
+        float: left;
+    }
+    .lists {
+        box-sizing: border-box;
+        //height: 134px;
+        padding: 22px 0;
+        border-top: 1px dashed #D9D9D9;
+        &:nth-of-type(1) {
+            padding-top: 30px;
+            border-top: none;
+        }
+        p {
+            margin: 8px 0;
+            font-size: 12px;
+            a,span,em {
+                //display: inline-block;
+                line-height: 20px;
+                font-size: 12px;
+                color: #717171;
+            }
+            a {
+                color: #4094c7;
+                &:hover {
+                    color: #075b8d;
+                }
+            }
+            em {
+                font-weight: bold;
+                margin: 0 2px;
+            }
+        }
+        h4 {
+            margin-bottom: 10px;
+            a {
+                line-height: 1.5;
+                font-size: 18px;
+                font-weight: bold;
+                color:#555555;
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+        .list_footer {
+            line-height: 20px;
+            font-size: 12px;
+            a,span,em {
+                color: #999999;
+                &:hover {
+                    color: #717171;
+                }
+            }
+        }
+    }
+    .list_right {
+        float: right;
+        width: 100px;
+        height: 100px;
+        margin-top: -7px;
+        img {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+    }
+    .no_img {
+        display: none;
+    }
+}
+.get_more {
+    width: 146px;
+    line-height: 50px;
+    margin: 20px auto 36px;
+    background: #e78170;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    border-color: #f49484;
+    border-radius: 4px;
+    &:hover {
+        background: #f49484;
+    }
+}

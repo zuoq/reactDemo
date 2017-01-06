@@ -1,0 +1,37 @@
+{
+  "name": "react-jianshu",
+  "version": "1.0.0",
+  "description": "a react project of jianshu",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "css-path-loader": "^1.0.1",
+    "html-path-loader": "^0.1.12",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "style-loader": "^0.13.1",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --display-error-detail --progress --colors --watch"
+  },
+  "keywords": [
+    "react",
+    "jianshu"
+  ],
+  "author": "izqcool",
+  "license": "ISC"
+}

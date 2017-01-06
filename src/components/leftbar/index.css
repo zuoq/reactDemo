@@ -1,0 +1,163 @@
+.left_con {
+  float: left;
+  width: 28%;
+  height: 500px;
+  background: red;
+}
+.left_con_noimg {
+  width: 44px;
+}
+#left {
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 100%;
+  background-color: #2A2A2A;
+}
+#left a {
+  display: block;
+  width: 100%;
+  line-height: 43px;
+  text-align: center;
+}
+#left a .iconfont {
+  font-size: 20px;
+  font-weight: block;
+  color: #999999;
+}
+#left a span {
+  display: none;
+}
+#left a:hover {
+  background-color: #f49484;
+  cursor: pointer;
+}
+#left a:hover i {
+  color: white;
+}
+#left .active {
+  background-color: #E78170;
+}
+#left .active i {
+  color: white;
+}
+.hide_pic_con {
+  display: none;
+}
+@media screen and (min-width: 1588px) {
+  #left {
+    float: left;
+    width: 170px;
+    height: 100%;
+    background-color: #2A2A2A;
+  }
+  #left a {
+    display: block;
+    width: 100%;
+    line-height: 41px;
+    text-align: left;
+  }
+  #left a i {
+    display: none;
+  }
+  #left a .iconfont {
+    font-size: 7.33333333px;
+    font-weight: block;
+    color: #999999;
+  }
+  [data-dpr="2"] #left a .iconfont {
+    font-size: 11px;
+  }
+  [data-dpr="3"] #left a .iconfont {
+    font-size: 22px;
+  }
+  #left a span {
+    display: block;
+    font-size: 7.33333333px;
+  }
+  [data-dpr="2"] #left a span {
+    font-size: 11px;
+  }
+  [data-dpr="3"] #left a span {
+    font-size: 22px;
+  }
+  #left a:hover {
+    background-color: #f49484;
+    cursor: pointer;
+  }
+  #left a:hover i {
+    color: white;
+  }
+  #left .active {
+    background-color: #E78170;
+  }
+  #left .active i {
+    color: white;
+  }
+}
+.pic_con {
+  position: fixed;
+  top: 0;
+  left: 44px;
+  width: 24.8%;
+  height: 100%;
+  color: red;
+  background-size: cover;
+}
+.pic_con .bottom_lock {
+  position: absolute;
+  top: 66.06606607%;
+  margin-left: 4.2042042%;
+  font-size: 24px;
+  font-weight: bold;
+}
+.pic_con h1 {
+  line-height: 52px;
+  font-size: 38px;
+}
+.pic_con h2 {
+  line-height: 44px;
+  font-size: 24px;
+}
+.pic_con p {
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: normal;
+}
+@media screen and (min-width: 1588px) {
+  .pic_con {
+    position: fixed;
+    top: 0;
+    left: 170px;
+    width: 338px;
+    height: 100%;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100;
+  }
+  .pic_con .bottom_lock {
+    position: absolute;
+    top: 76.57657658%;
+    margin-left: 6.60660661%;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .pic_con h1 {
+    line-height: 52px;
+    font-size: 38px;
+  }
+  .pic_con h2 {
+    line-height: 44px;
+    font-size: 24px;
+  }
+  .pic_con p {
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .hide_pic {
+    display: none;
+  }
+}
